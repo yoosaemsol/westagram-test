@@ -1,0 +1,30 @@
+:root{
+  /* color*/
+  --color-white:#FAFAFA;
+  --color-lighter-white:#FFFFFF;
+  --color-light-white:#efefef;
+  --color-dark-white:#DBDBDB;
+  --color-blue: #0095F6; 
+  --color-dark-blue:#475E8F;
+  --color-light-blue:#B9DFFC;
+  --color-black: #0000;
+  --color-gray:#8E8E8E;
+  --color-purple:#8c52ff;
+  --font-title:'Lobster', cursive;
+
+  /* size*/
+  --border-radius:4px;
+  --border-round-radius:50%;
+}
+
+body{
+  background: var(--color-white);
+  margin: 0;
+  text-decoration: none;
+  font-family: Lato, sans-serif;
+  
+}
+
+*{
+  box-sizing: border-box;
+}

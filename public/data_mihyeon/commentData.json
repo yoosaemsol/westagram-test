@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "userName": "rainbow",
+        "content": "hello~!",
+        "isLiked": true
+    },
+    {
+        "id": 2,
+        "userName": "violet",
+        "content": "Nice pic",
+        "isLiked": false
+    },
+    {
+        "id": 3,
+        "userName": "bluer",
+        "content": "follow me",
+        "isLiked": false
+    }
+]

@@ -1,0 +1,111 @@
+.feed_container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: stretch;
+    margin: 30px 30px 0px 0px;
+    border: 1px solid var(--color-dark-white);
+    width:615px;
+    background:var(--color-lighter-white);
+
+    .feed_contents{
+        border: 1px solid var(--color-light-white);
+        margin-bottom: 15px;
+        line-height: 20px;
+
+    .feed_header{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 10px;
+        padding: 16px 40px 16px 16px;
+        height: 60px;
+        border-bottom: 1px solid var(--color-light-white);
+        
+        .settings_icon{
+            margin: 0 -25px 15px auto;
+        }
+
+        .round_image{
+            margin-right: 10px;
+            width: 42px;
+            height: 42px;
+            border-radius: var(--border-round-radius);
+            border: 1px solid var(--color-purple);
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+
+            p{
+                margin: 0;
+            }
+        }
+    }
+    .main_image_container{
+        display: block;
+        width: 100%;
+        height: 500px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+        .main_image{
+            left: 0;
+            top:0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+    }
+
+    .board_container{
+        padding: 0px 10px 10px 10px;
+
+        #heart_bold{
+            font-weight: bold;
+            color: blueviolet;
+            transform: scale(1.1);
+        }
+
+        #heart_empty{
+            font-weight: lighter;
+            color:blueviolet ;
+        }
+          /* icons container */
+        .icons_contianer{
+            display: flex;
+            justify-content: flex-start;
+            color: blueviolet;
+            opacity: 0.8;
+
+                 i{
+                    margin: 10px 15px 10px 0px;
+                    font-size: 22px;
+                    
+                    &:last-of-type{
+                         margin-left: auto; 
+                         margin-right: 5px;
+    }
+}
+}
+        .feed_icons_container{
+            margin-bottom: 8px;
+
+            .round_image_small{
+                width: 20px;
+                height: 20px;
+                border-radius: var(--border-round-radius);
+            }
+        }
+
+        .feed_message_container{
+            margin-bottom: 10px;
+
+            span:first-of-type{
+                margin-right: 10px;
+            }
+        }
+    }
+}
+}
