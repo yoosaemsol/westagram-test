@@ -1,0 +1,165 @@
+.login_page{
+    margin-top: 60px;
+
+    .login_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        width: 350px;
+        height: 606px;
+    }
+    
+    .login_form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 1px solid var(--color-dark-white);
+
+        h1{
+            font-size: 45px;
+            align-self: center;
+            font-family: var(--font-title);
+        }
+
+        .input_container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+                .input_id, .input_password {
+                    margin-bottom: 8px;
+                    width: 266px;
+                    height: 37px;
+                    border: 1px solid var(--color-dark-white);
+                    background-color: var(--color-white);
+                    outline: none;
+                }
+
+                .login_btn_light{
+                    margin-top: 8px;
+                    width: 270px;
+                    height: 31px;
+                    font-weight: bold;
+                    border-style: none;
+                    border-radius: var(--border-radius);
+                    color: var(--color-white);
+                    background-color: #B9DFFC;
+                    outline: none;
+                } 
+
+                .login_btn_dark {
+                    margin-top: 8px;
+                    width: 270px;
+                    height: 31px;
+                    font-weight: bold;
+                    border-style: none;
+                    border-radius: var(--border-radius);
+                    color: var(--color-white);
+                    background-color: #0095F6;
+                    outline: none;
+                }       
+        } 
+    }
+    
+    .login_form,
+    .has_account{
+        background:var(--color-lighter-white);
+    }
+
+    /* or container part*/
+    .or_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 15px ;
+
+        div{
+            margin-top: 7px;
+            padding-left: 103px;
+            border-top: 1px solid var(--color-dark-white);
+        }      
+
+        h1.text_or{
+            margin: 0px 20px 10px 20px;
+            font-size: 13px;
+            color:var(--color-gray);
+        }
+    }
+    /* facebook part */
+    .facebook_login_link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .facebook_login_text{
+            margin-bottom: 20px;
+            font-weight: bold;
+            font-size: 14px;
+            color: var(--color-dark-blue);
+
+                i {
+                    font-size: larger;
+                    color: var(--color-dark-blue);
+                    }
+        }
+
+         a{
+            margin-bottom: 20px;
+            text-decoration: none;
+            font-size: 11px;
+            color:var(--color-dark-blue);
+        }
+    }
+     
+    /* hasAccount part */
+    .has_account{
+        display: flex;
+        justify-content: center;
+        border: 1px solid var(--color-dark-white);
+        margin: 10px 0 10px;
+        font-size: 14px;
+        text-decoration: none;
+        .has_account_content{
+            margin: 20px auto;
+            .signupBtn{
+                text-decoration: none;
+                font-weight: bold;
+                color: #1E9DF7;
+            }
+        }  
+    }
+    
+    /* download-App part */
+    .download_APP{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p{
+            font-size: 14px;
+        }
+        
+        .download_button{
+            display: flex;
+
+            a{
+                margin-right: 15px;
+                border-radius: var(--border-radius);
+                color: var(--color-white);
+
+                & :first-child{
+                    height: 40px;
+                    width: 134px;
+                }
+
+                &:last-child{
+                    height: 40px;
+                    width: 136px;
+                }      
+            }        
+        }           
+    }     
+}
+
