@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1545231097-cbd796f1d95f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1286&q=80",
+        "nickname": "@rainbow",
+        "content": "안녕, rainbow!",
+        "isFollow": false
+    },
+    {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1526500141527-9e9b0ae48227?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        "nickname": "@violet",
+        "content": "안녕, violet!",
+        "isFollow": false
+    },
+    {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1492285231531-94cb637b064c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "nickname": "@purple_round",
+        "content": "I'm a purple_round!",
+        "isFollow": false
+    },
+    {
+        "id": 4,
+        "image": "https://images.unsplash.com/photo-1529333242387-8c6c002a52d3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1267&q=80",
+        "nickname": "@painter",
+        "content": "I'm an artist",
+        "isFollow": false
+    },
+    {
+        "id": 5,
+        "image": "https://images.unsplash.com/photo-1540228232483-1b64a7024923?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80",
+        "nickname": "@bluer",
+        "content": "BLUE!",
+        "isFollow": false
+    }
+]

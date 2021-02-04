@@ -1,0 +1,78 @@
+.recommendation{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+    .main_right_container {
+        position: fixed;
+
+        .recomandation_profile{
+            display: flex;
+            justify-content: flex-start;
+
+             div{
+                 &:last-of-type{
+                    margin-left: 20px;
+                    margin-top: 10px;
+                    font-size: 12px;
+                    color: var(--color-blue);
+                 }                
+            }
+
+            .round_image{
+                margin-right: 10px;
+                width: 42px;
+                height: 42px;
+                border-radius: var(--border-round-radius);
+            }
+            .own_profile_container{
+                p{
+                    margin: 0 0 0 8px;
+                    font-size: 15px;
+                }
+            }
+        }
+        .recomandation_list{
+                &:first-of-type div{
+                display: flex;
+                justify-content: flex-start;
+            }
+            .recomandation_list_text{
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .recommendation_cotainer{
+                display: flex;
+                flex-direction: column;
+
+                .recomandation_individual{
+                    display: flex;
+
+                    div{          
+                            display: flex;
+                            flex-direction: column;
+                            margin: auto;
+        
+                        .user_follow_status{
+                            padding-bottom :22px;
+                        }
+                    }
+                    .user_container{
+                        margin: 0 10px 0 0;
+                    }
+                    .follow_text{
+                        margin-right:0;
+                        color:var(--color-blue)
+                    }
+                    .round_image{
+                        margin-right: 10px;
+                        width: 42px;
+                        height: 42px;
+                        border-radius: var(--border-round-radius);
+                    } 
+                }   
+            }
+        }
+    }            
+}    
