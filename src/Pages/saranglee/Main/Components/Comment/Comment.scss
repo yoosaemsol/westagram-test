@@ -1,0 +1,18 @@
+.comment {
+  %flex-center {
+    display: flex;
+    align-items: center;
+  }
+
+  .comment_written {
+    @extend %flex-center;
+    justify-content: column;
+    margin-bottom: 4px;
+    padding: 0 16px;
+
+    .comment_text {
+      padding-left: 5px;
+      font-size: 14px; 
+    }
+  }
+}

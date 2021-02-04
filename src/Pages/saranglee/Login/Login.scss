@@ -1,0 +1,64 @@
+.loginSarang {
+  $bgColor: #fafafa;
+  $border: 1px solid #dbdbdb;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 350px;
+  height: 380px;
+  margin: 100px auto;
+  padding: 20px 0;
+  background-color: #ffffff;
+  border: $border;
+ 
+  .logo_img{
+    display: block;
+    width: 175px;
+    height: 51px;
+    margin: 20px auto 30px auto;
+  }
+
+  .login_container {
+    width: 268px;
+    margin: auto;
+
+    .id_input, .pw_input, .login_btn {
+      width: 100%;
+    }
+
+    .id_input, .pw_input {
+      height: 36px;
+      margin-bottom: 6px;
+      padding: 8px;
+      background-color: $bgColor;
+      border: $border;
+      border-radius: 3px;
+      &::placeholder {
+        color: #8e8e8e;
+        font-size: 12px;
+      }
+    }
+    
+    .login_btn {
+      height: 30px;
+      margin-top: 8px;
+      color: #ffffff;
+      background-color:#0095f6;
+      border-style: none;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 600;
+      &:disabled {
+        opacity: 0.3;
+      }
+    }
+  }
+
+  .forgot_pw {
+    color: #00376b;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}

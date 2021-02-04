@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "userLink": "https://www.instagram.com/uirim_inn/",
+    "userId": "wecode",
+    "content": "Welcome to world best coding bootcamp!",
+    "isLiked": true
+  },
+  {
+    "id": 2,
+    "userLink": "https://www.instagram.com/uirim_inn/",
+    "userId": "joonsikyang",
+    "content": "Hi there.",
+    "isLiked": false
+  },
+  {
+    "id": 3,
+    "userLink": "https://www.instagram.com/uirim_inn/",
+    "userId": "jayPark",
+    "content": "Hey.",
+    "isLiked": false
+  }
+]
