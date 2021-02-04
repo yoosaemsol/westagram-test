@@ -1,0 +1,27 @@
+.Stories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90px;
+
+  img {
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+    padding: 2px;
+    border-radius: 35px;
+    border: 2px solid #c62e61;
+  }
+
+  img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
+  p {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 13px;
+    padding-left: 10px;
+  }
+}

@@ -1,0 +1,58 @@
+$grey-bg-color: #fafafa;
+
+.suggestProfiles {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: $grey-bg-color;
+
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: $grey-bg-color;
+  }
+
+  .imageAndName {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: $grey-bg-color;
+
+    .profileContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      background-color: $grey-bg-color;
+    }
+
+    img {
+      width: 35px;
+      border-radius: 35px;
+      margin-right: 15px;
+    }
+
+    .name {
+      background-color: $grey-bg-color;
+      font-weight: bold;
+    }
+
+    .detail {
+      margin-top: 5px;
+      color: rgb(145, 144, 144);
+      background-color: $grey-bg-color;
+      font-size: 12px;
+    }
+  }
+
+  .follow {
+    color: #0095f6;
+    background-color: $grey-bg-color;
+    font-size: 13px;
+  }
+
+  .follow:hover {
+    font-weight: bold;
+  }
+}

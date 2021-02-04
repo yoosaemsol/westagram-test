@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "profileName": "sunah9404",
+    "imgAlt": "suggest1",
+    "src": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/18443428_1325344254186163_254029804976734208_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_cat=107&_nc_ohc=OScs7W7vYkIAX8VBiZd&tp=1&oh=005996d9157a5f699d4be112f647bcb9&oe=604301BB",
+    "detail": "Suggested for you"
+  },
+  {
+    "id": 2,
+    "profileName": "yejinohhhh",
+    "img_alt": "suggest2",
+    "src": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-15/e35/c120.0.720.720a/s320x320/25014030_2032385476975765_302603320999018496_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_cat=101&_nc_ohc=MRV0iIVRS2sAX-tRqcL&tp=1&oh=c7d31a995361422cfbb36ec4a5bb8d85&oe=60437C3B",
+    "detail": "Suggested for you"
+  },
+  {
+    "id": 3,
+    "profileName": "real_bap",
+    "img_alt": "suggest3",
+    "src": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-15/e35/s320x320/15877568_357680451261499_3588958914026143744_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_cat=107&_nc_ohc=_CFyulr4JrcAX_IC5Cx&tp=1&oh=5e8923946a190b18d4da35514f2010e0&oe=6040DFDE",
+    "detail": "Followed by soonapchat + 2 more"
+  },
+  {
+    "id": 4,
+    "profileName": "bongsta",
+    "img_alt": "suggest4",
+    "src": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-15/e35/c120.0.720.720a/s320x320/13739589_1575215579449655_1606977350_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=laUy1W7T-fEAX-H44Zo&tp=1&oh=105cd9ebe07df0a730fd091a35431e8c&oe=6042DEF6",
+    "detail": "New to Instagram"
+  }
+]
