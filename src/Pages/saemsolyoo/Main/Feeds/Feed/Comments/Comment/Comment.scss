@@ -1,0 +1,47 @@
+.Comments {
+  li {
+    padding: 0 12px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+
+    &:hover .fa-trash {
+      display: inline-block;
+    }
+
+    div {
+      a {
+        margin-right: 3px;
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      span {
+        font-size: 14px;
+      }
+    }
+
+    .fa-trash {
+      display: none;
+      font-size: 10px;
+      cursor: pointer;
+      margin-right: 10px;
+      color: grey;
+    }
+
+    .unlike {
+      font-size: 10px;
+      cursor: pointer;
+    }
+
+    .like {
+      font-size: 10px;
+      cursor: pointer;
+      color: #ea404c;
+    }
+
+    // .hidden {
+    //   display: none;
+    // }
+  }
+}
